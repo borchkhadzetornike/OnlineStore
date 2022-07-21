@@ -1,0 +1,80 @@
+/* general rules */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* header & navigation */
+
+#header {
+    background-color: #F5EDDC;
+    padding-bottom: 60px;
+}
+
+.header-img {
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 60px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.nav-link:last-child {
+    padding-right: 0 !important;
+}
+
+.header-h1 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.header-p {
+    margin: 60px 0;
+}
+
+.header-left-box{
+    box-sizing: border-box;
+    padding-right: 50px;
+    position: relative;
+}
+
+.header-right-box{
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+.apple-download {
+    margin-right: 15px;
+}
+
+.download-btn {
+    position: absolute;
+    bottom: 0;
+}
+
+@media (max-width: 991px) {
+    .header-h1 {
+        font-size: 3rem;
+    }
+
+    .header-left-box, .header-right-box {
+        padding: 0;
+        text-align: center;
+    }
+
+    .header-img {
+        width: 80%;
+        margin-top: 60px;
+    }
+
+    .download-btn{
+        position: static;
+    }
+
+}
