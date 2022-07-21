@@ -1,0 +1,22 @@
+/* Medium and small devices */
+@media (max-width: 991px) {
+    .header-h1 {
+        font-size: 3rem;
+    }
+
+    .header-left-box,
+    .header-right-box {
+        padding: 0;
+        text-align: center;
+    }
+
+    .header-img {
+        width: 80%;
+        margin-top: 60px;
+    }
+
+    .download-btn {
+        position: static;
+    }
+
+}
